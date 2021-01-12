@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "983422910368",
+    "firebase_url": "https://delivery-64665.firebaseio.com",
+    "project_id": "delivery-64665",
+    "storage_bucket": "delivery-64665.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983422910368:android:167532018dac9dfe1eeec5",
+        "android_client_info": {
+          "package_name": "kg.onet.lavash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4CskwZUUN-C_-eIXigJrty-HhELyZ8Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983422910368:android:d62b45ffd11def951eeec5",
+        "android_client_info": {
+          "package_name": "kg.onet.lcd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4CskwZUUN-C_-eIXigJrty-HhELyZ8Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983422910368:android:99117d70943707741eeec5",
+        "android_client_info": {
+          "package_name": "kg.onet.mrpacho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4CskwZUUN-C_-eIXigJrty-HhELyZ8Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
