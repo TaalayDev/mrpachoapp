@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_inappbrowser/flutter_inappbrowser.dart';
-import 'package:global_configuration/global_configuration.dart';
+// import 'package:flutter_inappbrowser/flutter_inappbrowser.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
 import '../../generated/l10n.dart';
@@ -35,7 +34,7 @@ class _PayPalPaymentWidgetState extends StateMVC<PayPalPaymentWidget> {
       ),
       body: Stack(
         children: <Widget>[
-          InAppWebView(
+          /*InAppWebView(
             initialUrl: _con.url,
             initialHeaders: {},
             initialOptions: new InAppWebViewWidgetOptions(),
@@ -55,7 +54,7 @@ class _PayPalPaymentWidgetState extends StateMVC<PayPalPaymentWidget> {
                 _con.progress = progress / 100;
               });
             },
-          ),
+          ),*/
           _con.progress < 1
               ? SizedBox(
                   height: 3,
