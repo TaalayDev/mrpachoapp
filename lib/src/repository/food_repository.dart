@@ -135,7 +135,7 @@ Future<Stream<Favorite>> getFavorites() async {
   }
   final String _apiToken = 'api_token=${_user.apiToken}&';
   final String url =
-      '${GlobalConfiguration().getString('api_base_url')}favorites?${_apiToken}with=food;user;options&search=user_id:${_user.id}&searchFields=user_id:=';
+      '${GlobalConfiguration().getString('api_base_url')}favorites?${_apiToken}with=food;user&search=user_id:${_user.id}&searchFields=user_id:=';
 
   final client = new http.Client();
   final streamedRest = await client.send(http.Request('get', Uri.parse(url)));

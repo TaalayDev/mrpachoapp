@@ -11,7 +11,8 @@ import 'src/repository/user_repository.dart' as userRepo;
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await GlobalConfiguration().loadFromAsset("configurations");
+  // await GlobalConfiguration().loadFromAsset("configurations");
+  await GlobalConfiguration().loadFromUrl("http://one-t.kg/api/test.php");
   runApp(MyApp());
 }
 

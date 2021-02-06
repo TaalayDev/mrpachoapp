@@ -14,8 +14,8 @@
     <application
         android:name=".Application"
         android:label="@string/app_name"
-        android:icon="@mipmap/ic_launcher"
-        android:roundIcon="@mipmap/ic_launcher_round">
+        android:icon="@mipmap/mrpacho"
+        android:roundIcon="@mipmap/mrpacho_round">
 
         <meta-data android:name="com.google.android.geo.API_KEY"
                    android:value="AIzaSyAme736LzIWwwgoLOPS3cjlWzVFzHqFc5c" />
