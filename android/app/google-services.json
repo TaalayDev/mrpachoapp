@@ -1,92 +1,33 @@
 {
   "project_info": {
-    "project_number": "983422910368",
-    "firebase_url": "https://delivery-64665.firebaseio.com",
-    "project_id": "delivery-64665",
-    "storage_bucket": "delivery-64665.appspot.com"
+    "project_number": "54636320655",
+    "project_id": "mrpacho-8e598",
+    "storage_bucket": "mrpacho-8e598.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:983422910368:android:167532018dac9dfe1eeec5",
-        "android_client_info": {
-          "package_name": "kg.onet.lavash"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD4CskwZUUN-C_-eIXigJrty-HhELyZ8Mc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:983422910368:android:d62b45ffd11def951eeec5",
-        "android_client_info": {
-          "package_name": "kg.onet.lcd"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyD4CskwZUUN-C_-eIXigJrty-HhELyZ8Mc"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:983422910368:android:99117d70943707741eeec5",
+        "mobilesdk_app_id": "1:54636320655:android:0b9b09c1a33b5a87841dfa",
         "android_client_info": {
           "package_name": "kg.onet.mrpacho"
         }
       },
       "oauth_client": [
         {
-          "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+          "client_id": "54636320655-e5gnmr76r7a3rn0l8lmqplig02qpu1hp.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD4CskwZUUN-C_-eIXigJrty-HhELyZ8Mc"
+          "current_key": "AIzaSyCpwmKDFDpougtzWWjYck0Z3FQ7lF7F6ao"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "983422910368-3uh552k8ejhghnkftnbq7tl026m6pqd4.apps.googleusercontent.com",
+              "client_id": "54636320655-e5gnmr76r7a3rn0l8lmqplig02qpu1hp.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -51,7 +51,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
           ) : Container(),*/
           ListTile(
             onTap: () {
-              Navigator.of(context).pushNamed('/Pages', arguments: 2);
+              Navigator.of(context).pushNamed('/Pages', arguments: 1);
             },
             leading: Icon(
               Icons.home,
@@ -77,7 +77,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
           ),*/
           ListTile(
             onTap: () {
-              Navigator.of(context).pushNamed('/Pages', arguments: 3);
+              Navigator.of(context).pushNamed('/Pages', arguments: 0);
             },
             leading: Icon(
               Icons.local_mall,
@@ -90,7 +90,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
           ),
           ListTile(
             onTap: () {
-              Navigator.of(context).pushNamed('/Pages', arguments: 4);
+              Navigator.of(context).pushNamed('/Pages', arguments: 2);
             },
             leading: Icon(
               Icons.favorite,

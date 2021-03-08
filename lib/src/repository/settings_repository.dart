@@ -7,13 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:geocoder/geocoder.dart' as geocoder;
 import 'package:global_configuration/global_configuration.dart';
-import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
 import 'package:location/location.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../helpers/custom_trace.dart';
-import '../helpers/maps_util.dart';
 import '../models/address.dart';
 import '../models/setting.dart';
 
