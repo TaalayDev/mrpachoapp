@@ -25,19 +25,26 @@ class SplashScreenController extends ControllerMVC {
   @override
   void initState() {
     super.initState();
-    firebaseMessaging.requestNotificationPermissions(const IosNotificationSettings(sound: true, badge: true, alert: true));
+    firebaseMessaging.requestNotificationPermissions(
+        const IosNotificationSettings(sound: true, badge: true, alert: true));
     configureFirebase(firebaseMessaging);
     settingRepo.setting.addListener(() {
-      if (settingRepo.setting.value.appName != null && settingRepo.setting.value.appName != '' && settingRepo.setting.value.mainColor != null) {
-        progress.value["Setting"] = 41;
+      if (settingRepo.setting.value.appName != null &&
+          settingRepo.setting.value.appName != '' &&
+          settingRepo.setting.value.mainColor != null) {
+        progress.value["Setting"] = progress.value["Setting"] + 39;
         progress?.notifyListeners();
       }
     });
     userRepo.currentUser.addListener(() {
       if (userRepo.currentUser.value.auth != null) {
-        progress.value["User"] = 59;
+        progress.value["User"] = 60;
         progress?.notifyListeners();
       }
+    });
+    Timer(Duration(seconds: 4), () {
+      progress.value["Setting"] = progress.value["Setting"] + 1;
+      progress?.notifyListeners();
     });
     Timer(Duration(seconds: 20), () {
       scaffoldKey?.currentState?.showSnackBar(SnackBar(
@@ -63,7 +70,8 @@ class SplashScreenController extends ControllerMVC {
     print(CustomTrace(StackTrace.current, message: message['data']['id']));
     try {
       if (message['data']['id'] == "orders") {
-        settingRepo.navigatorKey.currentState.pushReplacementNamed('/Pages', arguments: 3);
+        settingRepo.navigatorKey.currentState
+            .pushReplacementNamed('/Pages', arguments: 3);
       }
     } catch (e) {
       print(CustomTrace(StackTrace.current, message: e));
@@ -76,7 +84,8 @@ class SplashScreenController extends ControllerMVC {
       if (messageId != message['google.message_id']) {
         if (message['data']['id'] == "orders") {
           await settingRepo.saveMessageId(message['google.message_id']);
-          settingRepo.navigatorKey.currentState.pushReplacementNamed('/Pages', arguments: 3);
+          settingRepo.navigatorKey.currentState
+              .pushReplacementNamed('/Pages', arguments: 3);
         }
       }
     } catch (e) {

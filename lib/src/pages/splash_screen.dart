@@ -29,6 +29,7 @@ class SplashScreenState extends StateMVC<SplashScreen> {
       _con.progress.value.values.forEach((_progress) {
         progress += _progress;
       });
+      print("progress $progress");
       if (progress == 100) {
         try {
           Navigator.of(context).pushReplacementNamed('/Pages', arguments: 1);
@@ -43,7 +44,8 @@ class SplashScreenState extends StateMVC<SplashScreen> {
       key: _con.scaffoldKey,
       body: Container(
         decoration: BoxDecoration(
-          color: Color(0xFFe40615), // Theme.of(context).scaffoldBackgroundColor,
+          color:
+              Color(0xFFe40615), // Theme.of(context).scaffoldBackgroundColor,
         ),
         child: Center(
           child: Column(
@@ -58,7 +60,7 @@ class SplashScreenState extends StateMVC<SplashScreen> {
               ),
               SizedBox(height: 50),
               CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(Theme.of(context).hintColor),
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
               ),
             ],
           ),
@@ -66,5 +68,4 @@ class SplashScreenState extends StateMVC<SplashScreen> {
       ),
     );
   }
-
 }

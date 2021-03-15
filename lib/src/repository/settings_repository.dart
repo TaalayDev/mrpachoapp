@@ -28,8 +28,10 @@ Future<Setting> initSettings() async {
   try {
     final response = await http
         .get(url, headers: {HttpHeaders.contentTypeHeader: 'application/json'});
+    print("${response.statusCode}");
     if (response.statusCode == 200 &&
         response.headers.containsValue('application/json')) {
+      print("${response.body.toString()}");
       if (json.decode(response.body)['data'] != null) {
         SharedPreferences prefs = await SharedPreferences.getInstance();
         await prefs.setString(
@@ -44,7 +46,7 @@ Future<Setting> initSettings() async {
         setting.value = _setting;
 
         // ignore: invalid_use_of_visible_for_testing_member, invalid_use_of_protected_member
-        setting.notifyListeners();
+        // setting.notifyListeners();
       }
     } else {
       print(CustomTrace(StackTrace.current, message: response.body).toString());
